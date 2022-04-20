@@ -44,9 +44,11 @@ jobs:
       with:
        java-version: '11'
        distribution: 'adopt'
-    - name: import repo
-      run: wget https://github.com/jeremylong/DependencyCheck/releases/download/v7.0.4/dependency-check-7.0.4-release.zip
-    - name: extract zip
-      run: unzip dependency-check-7.0.4-release.zip -d /scatool
+    - name: view dir
+      run: ls -a 
+#    - name: import repo
+#      run: wget https://github.com/jeremylong/DependencyCheck/releases/download/v7.0.4/dependency-check-7.0.4-release.zip
+#    - name: extract zip
+#      run: unzip dependency-check-7.0.4-release.zip -d /scatool
     #  run: mvn --batch-mode -X --update-snapshots verify
 
