@@ -47,6 +47,6 @@ jobs:
     - name: import repo
       run: wget https://github.com/jeremylong/DependencyCheck/releases/download/v7.0.4/dependency-check-7.0.4-release.zip
     - name: extract zip
-      run: unzip file.zip -d /scatool
+      run: unzip dependency-check-7.0.4-release.zip -d /scatool
     #  run: mvn --batch-mode -X --update-snapshots verify
 
